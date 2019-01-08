@@ -39,6 +39,11 @@ The control supports QR codes, data-matrix codes, and these types of barcodes:
 
 **Text** - Text that appears on the button that activates the scanner.
 
+## Usage
+On a mobile device (iOS or Android), click the "Scan"-button. This will open a camera-screen where you can change the camera (front or back) and turn on the flashlight.
+The component will automatically recognize any barcode on the screen.
+After a suitable barcode was found, this value will be available in the **Value**-property, e.g. you can display the value of a barcode on a label's **Text**-property via the code: **BarcodeScanner1.Value**.
+
 ## Additional properties
 
 **[BorderColor](properties-color-border.md)** – The color of a control's border.
